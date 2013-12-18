@@ -1,0 +1,44 @@
+/* Miscellaneous
+-------------------------------------------------- */
+
+/* Remove the bottom border of the navigation tabs you see on your dashboard */
+.dashboard-tabs { border-bottom: 0; }
+
+/* Background for a couple of elements */
+.comment-header,
+.box-header,
+.dashboard-tabs,
+#readme span.name { background: #f5f5f5; }
+
+/* Subtle border for a LOT of elements */
+.comment-header,
+.comment-content,
+.button,
+.minibutton,
+.discussion-topic-header,
+.box-header,
+.box-body,
+#readme span.name,
+#readme .markdown-body,
+#readme .plain,
+.dashboard-tabs,
+.drag-and-drop,
+.box-action,
+.notifications .confirmation + .list-group-item,
+#files .file,
+.file-box { border-color: #e5e5e5; }
+
+/* Inputs/textareas */
+input[type="text"],
+#adv_code_search .search-page-label,
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+textarea {
+  border-color: #e5e5e5;
+  box-shadow: none;
+}
+
+

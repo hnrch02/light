@@ -1,0 +1,20 @@
+/* Repository
+-------------------------------------------------- */
+
+/* Readme */
+#readme { padding: 0; }
+
+#readme span.name { border-radius: 3px 3px 0 0; }
+
+#readme .markdown-body, #readme .plain {
+  padding-top: 15px;
+  border-radius: 0 0 3px 3px;
+}
+
+/* Repo navigation */
+.sunken-menu.vertical-right .sunken-menu-separator,
+.sunken-menu.vertical-right .sunken-menu-contents { background: none; }
+
+.sunken-menu.vertical-right .sunken-menu-item.selected { box-shadow: none; }
+
+

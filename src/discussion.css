@@ -1,0 +1,43 @@
+/* Discussion
+-------------------------------------------------- */
+
+.comment-header {
+  border: 1px solid;
+  border-radius: 3px 3px 0 0;
+}
+
+.comment-header a { color: #aaa; }
+
+.comment-header .comment-header-date { color: #aaa; }
+
+.comment-content {
+  background: #fff;
+  border: 1px solid;
+  border-top-width: 0;
+  border-radius: 0 0 3px 3px;
+}
+
+.bubble { padding: 0; }
+
+.discussion-topic-header {
+  border: 1px solid;
+  border-bottom-width: 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.discusion-topic-infobar { border-width: 1px; }
+
+.discussion-bubble-inner,
+.previewable-comment-form .comment { border: none; }
+
+.discussion-bubble .discussion-bubble-content::before { display: none; }
+
+.discussion-reference .comment-header,
+.discussion-commit-list .comment-header,
+.repo-collab-comment .comment-header { background: #f0f6f8; }
+
+.previewable-comment-form .tabnav,
+.previewable-comment-form .write-content,
+.previewable-comment-form .preview-content { padding: 0; }
+
+

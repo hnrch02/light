@@ -1,0 +1,157 @@
+/*
+   __ _       _     _
+  / /(_) __ _| |__ | |_
+ / / | |/ _` | '_ \| __|
+/ /__| | (_| | | | | |_
+\____/_|\__, |_| |_|\__|
+        |___/
+
+Light is a browser- and extension independent skin for GitHub which aims at taking away some visual weight of GitHub's interface.
+
+Feel free to contribute at https://github.com/hnrch02/light
+Maintained by @hnrch02, released under the WTFPL license.
+
+*/
+
+
+
+/* Discussion
+-------------------------------------------------- */
+
+.comment-header {
+  border: 1px solid;
+  border-radius: 3px 3px 0 0;
+}
+
+.comment-header a { color: #aaa; }
+
+.comment-header .comment-header-date { color: #aaa; }
+
+.comment-content {
+  background: #fff;
+  border: 1px solid;
+  border-top-width: 0;
+  border-radius: 0 0 3px 3px;
+}
+
+.bubble { padding: 0; }
+
+.discussion-topic-header {
+  border: 1px solid;
+  border-bottom-width: 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.discusion-topic-infobar { border-width: 1px; }
+
+.discussion-bubble-inner,
+.previewable-comment-form .comment { border: none; }
+
+.discussion-bubble .discussion-bubble-content::before { display: none; }
+
+.discussion-reference .comment-header,
+.discussion-commit-list .comment-header,
+.repo-collab-comment .comment-header { background: #f0f6f8; }
+
+.previewable-comment-form .tabnav,
+.previewable-comment-form .write-content,
+.previewable-comment-form .preview-content { padding: 0; }
+
+
+/* Header
+-------------------------------------------------- */
+
+.header-logged-in { text-shadow: none; }
+
+.header-logo-invertocat { margin-right: 0; }
+
+.notification-indicator,
+.notification-indicator.contextually-unread {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin-right: 8px;
+  width: 20px;
+}
+
+.notification-indicator .mail-status { box-shadow: none; }
+
+.notification-indicator .mail-status.unread { background: #4183c4; }
+
+.notification-indicator.contextually-unread .mail-status.unread { background: #3c9eff; }
+
+.command-bar:not(.command-bar-focus) input[type="text"] { box-shadow: none; }
+
+.top-nav > li + li { margin: 0; }
+
+.top-nav > li > a {
+  font-weight: 400;
+  color: #999;
+}
+
+
+/* Miscellaneous
+-------------------------------------------------- */
+
+/* Remove the bottom border of the navigation tabs you see on your dashboard */
+.dashboard-tabs { border-bottom: 0; }
+
+/* Background for a couple of elements */
+.comment-header,
+.box-header,
+.dashboard-tabs,
+#readme span.name { background: #f5f5f5; }
+
+/* Subtle border for a LOT of elements */
+.comment-header,
+.comment-content,
+.button,
+.minibutton,
+.discussion-topic-header,
+.box-header,
+.box-body,
+#readme span.name,
+#readme .markdown-body,
+#readme .plain,
+.dashboard-tabs,
+.drag-and-drop,
+.box-action,
+.notifications .confirmation + .list-group-item,
+#files .file,
+.file-box { border-color: #e5e5e5; }
+
+/* Inputs/textareas */
+input[type="text"],
+#adv_code_search .search-page-label,
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+textarea {
+  border-color: #e5e5e5;
+  box-shadow: none;
+}
+
+
+/* Repository
+-------------------------------------------------- */
+
+/* Readme */
+#readme { padding: 0; }
+
+#readme span.name { border-radius: 3px 3px 0 0; }
+
+#readme .markdown-body, #readme .plain {
+  padding-top: 15px;
+  border-radius: 0 0 3px 3px;
+}
+
+/* Repo navigation */
+.sunken-menu.vertical-right .sunken-menu-separator,
+.sunken-menu.vertical-right .sunken-menu-contents { background: none; }
+
+.sunken-menu.vertical-right .sunken-menu-item.selected { box-shadow: none; }
+
+
