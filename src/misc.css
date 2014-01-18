@@ -96,4 +96,6 @@ div.preview-content .comment-content {
 .comparison-discussion-starter .discussion-topic-header,
 .comparison-discussion-starter div.composer .comment-content { border: none; }
 
+table.commits-condensed { width: 100%; }
+
 
