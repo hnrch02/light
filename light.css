@@ -124,7 +124,8 @@ Maintained by @hnrch02, released under the WTFPL license.
 .file-box,
 .boxed-group > h3,
 .boxed-group .heading,
-.boxed-group .boxed-group-inner { border-color: #e5e5e5; }
+.boxed-group .boxed-group-inner,
+.tmp-reusable-bubble .bubble-inner { border-color: #e5e5e5; }
 
 /* Inputs/textareas */
 input[type="text"],
@@ -173,6 +174,9 @@ div.preview-content .comment-content {
 }
 
 .write-content .enable-fullscreen { right: 6px; }
+
+.comparison-discussion-starter .discussion-topic-header,
+.comparison-discussion-starter div.composer .comment-content { border: none; }
 
 
 /* Repository
