@@ -101,7 +101,9 @@ Maintained by @hnrch02, released under the WTFPL license.
 .comment-header,
 .box-header,
 .dashboard-tabs,
-#readme span.name { background: #f5f5f5; }
+#readme span.name,
+.boxed-group > h3,
+.boxed-group .heading { background: #f5f5f5; }
 
 /* Subtle border for a LOT of elements */
 .comment-header,
@@ -119,7 +121,10 @@ Maintained by @hnrch02, released under the WTFPL license.
 .box-action,
 .notifications .confirmation + .list-group-item,
 #files .file,
-.file-box { border-color: #e5e5e5; }
+.file-box,
+.boxed-group > h3,
+.boxed-group .heading,
+.boxed-group .boxed-group-inner { border-color: #e5e5e5; }
 
 /* Inputs/textareas */
 input[type="text"],
@@ -133,6 +138,41 @@ textarea {
   border-color: #e5e5e5;
   box-shadow: none;
 }
+
+.boxed-group {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.boxed-group > h3,
+.boxed-group .heading { border-radius: 3px 3px 0 0; }
+
+.boxed-group .boxed-group-inner {
+  overflow: hidden;
+  border-radius: 0 0 3px 3px;
+}
+
+div.composer .contributing {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+div.composer .tabnav {
+  margin-right: -10px;
+  margin-left: -10px;
+  padding: 0 10px;
+}
+
+div.composer .comment-content { padding: 10px; }
+
+div.preview-content .comment-content {
+  padding: 0;
+  border: none;
+}
+
+.write-content .enable-fullscreen { right: 6px; }
 
 
 /* Repository
