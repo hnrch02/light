@@ -37,7 +37,9 @@
 .boxed-group .boxed-group-inner,
 .tmp-reusable-bubble .bubble-inner,
 #files .file .meta,
-.file-box .meta { border-color: #e5e5e5; }
+.file-box .meta,
+.tabnav,
+.tabnav-tab.selected { border-color: #e5e5e5; }
 
 /* Inputs/textareas */
 input[type="text"],
