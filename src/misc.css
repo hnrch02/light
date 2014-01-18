@@ -13,7 +13,8 @@
 .boxed-group > h3,
 .boxed-group .heading,
 #files .file .meta,
-.file-box .meta { background: #f5f5f5; }
+.file-box .meta,
+.select-menu-header { background: #f5f5f5; }
 
 /* Subtle border for a LOT of elements */
 .comment-header,
@@ -40,7 +41,9 @@
 .file-box .meta,
 .tabnav,
 .tabnav-tab.selected,
-.merge-pr { border-color: #e5e5e5; }
+.merge-pr,
+.capped-box,
+.select-menu-header { border-color: #e5e5e5; }
 
 /* Inputs/textareas */
 input[type="text"],
@@ -100,5 +103,7 @@ div.preview-content .comment-content {
 .comparison-discussion-starter div.composer .comment-content { border: none; }
 
 table.commits-condensed { width: 100%; }
+
+.select-menu-modal { box-shadow: 0 3px 12px rgba(0, 0, 0, .15); }
 
 
