@@ -60,4 +60,25 @@ textarea {
   border-radius: 0 0 3px 3px;
 }
 
+div.composer .contributing {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+div.composer .tabnav {
+  margin-right: -10px;
+  margin-left: -10px;
+  padding: 0 10px;
+}
+
+div.composer .comment-content { padding: 10px; }
+
+div.preview-content .comment-content {
+  padding: 0;
+  border: none;
+}
+
+.write-content .enable-fullscreen { right: 6px; }
+
 
