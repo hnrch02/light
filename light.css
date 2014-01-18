@@ -67,6 +67,8 @@ Maintained by @hnrch02, released under the WTFPL license.
 
 .comment-header .comment-header-tag { text-shadow: none; }
 
+.merge-pr .push-more { margin: 0; }
+
 
 /* Header
 -------------------------------------------------- */
@@ -142,7 +144,8 @@ Maintained by @hnrch02, released under the WTFPL license.
 #files .file .meta,
 .file-box .meta,
 .tabnav,
-.tabnav-tab.selected { border-color: #e5e5e5; }
+.tabnav-tab.selected,
+.merge-pr { border-color: #e5e5e5; }
 
 /* Inputs/textareas */
 input[type="text"],
