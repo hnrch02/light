@@ -57,6 +57,16 @@ Maintained by @hnrch02, released under the WTFPL license.
 .previewable-comment-form .write-content,
 .previewable-comment-form .preview-content { padding: 0; }
 
+.closed-banner {
+  background: none;
+  border-radius: 0;
+  border-top: 7px double #e5e5e5;
+}
+
+.inline-comments .comment { border: none; }
+
+.comment-header .comment-header-tag { text-shadow: none; }
+
 
 /* Header
 -------------------------------------------------- */
@@ -99,11 +109,14 @@ Maintained by @hnrch02, released under the WTFPL license.
 
 /* Background for a couple of elements */
 .comment-header,
+.repo-owner-comment .comment-header,
 .box-header,
 .dashboard-tabs,
 #readme span.name,
 .boxed-group > h3,
-.boxed-group .heading { background: #f5f5f5; }
+.boxed-group .heading,
+#files .file .meta,
+.file-box .meta { background: #f5f5f5; }
 
 /* Subtle border for a LOT of elements */
 .comment-header,
@@ -125,7 +138,9 @@ Maintained by @hnrch02, released under the WTFPL license.
 .boxed-group > h3,
 .boxed-group .heading,
 .boxed-group .boxed-group-inner,
-.tmp-reusable-bubble .bubble-inner { border-color: #e5e5e5; }
+.tmp-reusable-bubble .bubble-inner,
+#files .file .meta,
+.file-box .meta { border-color: #e5e5e5; }
 
 /* Inputs/textareas */
 input[type="text"],
@@ -145,6 +160,12 @@ textarea {
   padding: 0;
   border-radius: 0;
 }
+
+#files .image,
+.file-box .image { background: #f8f8ff; }
+
+#files .file,
+.file-box { border-radius: 3px; }
 
 .boxed-group > h3,
 .boxed-group .heading { border-radius: 3px 3px 0 0; }

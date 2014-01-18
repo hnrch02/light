@@ -40,4 +40,14 @@
 .previewable-comment-form .write-content,
 .previewable-comment-form .preview-content { padding: 0; }
 
+.closed-banner {
+  background: none;
+  border-radius: 0;
+  border-top: 7px double #e5e5e5;
+}
+
+.inline-comments .comment { border: none; }
+
+.comment-header .comment-header-tag { text-shadow: none; }
+
 
