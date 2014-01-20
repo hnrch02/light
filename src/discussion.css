@@ -1,6 +1,13 @@
 /* Discussion
 -------------------------------------------------- */
 
+.branch-status-wrapper { margin: 0 -1px -1px; }
+
+.discussion-topic .branch-status {
+  border-width: 1px;
+  border-radius: 0 0 3px 3px;
+}
+
 .comment-header {
   border: 1px solid;
   border-radius: 3px 3px 0 0;
