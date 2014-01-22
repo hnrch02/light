@@ -112,4 +112,18 @@ table.commits-condensed { width: 100%; }
 
 .select-menu-modal { box-shadow: 0 3px 12px rgba(0, 0, 0, .15); }
 
+.auth-form-header {
+  padding: 14px;
+  text-shadow: none;
+  background: #6c8393;
+  border: none;
+}
+
+.auth-form-header h1 { line-height: 1; }
+
+.auth-form-header .octicon {
+  top: 14px;
+  right: 14px;
+}
+
 
