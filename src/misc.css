@@ -84,6 +84,12 @@ div.composer .contributing {
   border-radius: 3px;
 }
 
+div.composer .composer-infobar {
+  margin: 0;
+  border: 1px solid #e5e5e5;
+  border-top-width: 0;
+}
+
 div.composer .tabnav {
   margin-right: -10px;
   margin-left: -10px;
