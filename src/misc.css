@@ -43,7 +43,8 @@
 .tabnav-tab.selected,
 .merge-pr,
 .capped-box,
-.select-menu-header { border-color: #e5e5e5; }
+.select-menu-header,
+#gollum-editor-function-bar { border-color: #e5e5e5; }
 
 /* Inputs/textareas */
 input[type="text"],
@@ -134,4 +135,27 @@ table.commits-condensed { width: 100%; }
   padding: 11px 11px 12px 11px;
   background: #df3e3e;
 }
+
+#pages-composer {
+  padding: 0;
+  background: none;
+}
+
+#pages-composer .body {
+  border-radius: 3px;
+  background: none;
+}
+
+#gollum-editor { background: none; }
+
+#gollum-editor-function-bar #load-readme { margin-top: 0; }
+
+#gollum-editor-function-bar .minibutton {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#pages-composer input:focus,
+#pages-composer #gollum-editor-body:focus { border-color: #51a7e8; }
+
 
