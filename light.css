@@ -224,11 +224,15 @@ table.commits-condensed { width: 100%; }
 
 .select-menu-modal { box-shadow: 0 3px 12px rgba(0, 0, 0, .15); }
 
+.auth-form-header,
+.boxed-group.dangerzone > h3 {
+  border: none;
+  text-shadow: none;
+}
+
 .auth-form-header {
   padding: 14px;
-  text-shadow: none;
   background: #6c8393;
-  border: none;
 }
 
 .auth-form-header h1 { line-height: 1; }
@@ -238,6 +242,10 @@ table.commits-condensed { width: 100%; }
   right: 14px;
 }
 
+.boxed-group.dangerzone > h3 {
+  padding: 11px 11px 12px 11px;
+  background: #df3e3e;
+}
 
 /* Repository
 -------------------------------------------------- */
