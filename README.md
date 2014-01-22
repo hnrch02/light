@@ -6,4 +6,4 @@ Released under the [WTFPL license](LICENSE)
 
 # Usage
 
-You just get some sort of restyle extension (like [Stylish for Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe)) for your browser and drop [the stylesheet](light.css) in.
+I, personally, use light in conjunction with [dotcss](https://github.com/stewart/dotcss), but light is nothing more than a stylesheet, so it will work with whatever floats your boat.
