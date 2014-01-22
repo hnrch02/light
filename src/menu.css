@@ -1,0 +1,85 @@
+/* Menu
+-------------------------------------------------- */
+
+.menu-container {
+  padding: 0;
+  background: none;
+}
+
+.menu,
+.menu li { border: none; }
+
+.menu li:first-child > a {
+  border-top: 1px solid #e5e5e5;
+  border-radius: 3px 3px 0 0;
+}
+
+.menu li:last-child > a {
+  border-bottom: 1px solid #e5e5e5;
+  border-radius: 0 0 3px 3px;
+}
+
+.menu a {
+  border: solid #e5e5e5;
+  border-width: 1px 1px 0;
+}
+
+.menu a.selected {
+  position: relative;
+  box-shadow: none;
+  border-left: 1px solid #e5e5e5;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.menu a.selected::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  width: 2px;
+  background: #d26911;
+  box-shadow: 0 1px 0 #d26911, 0 -1px 0 #d26911;
+}
+
+.accordion .section a.section-head,
+li.usage-bar { border: 1px solid #e5e5e5; }
+
+.accordion .section a.section-head { box-shadow: none; }
+
+li.usage-bar:last-child { border-bottom: 1px solid #e5e5e5; }
+
+.accordion .section .section-nav li:first-child > a,
+.accordion .section:not(:first-child) > a.section-head { border-top: none; }
+
+.accordion .section:last-child .section-nav li:last-child { border-radius: 0 0 3px 3px; }
+
+.section-nav li > a { border-radius: 0 !important; }
+
+.accordion .section .section-nav.expanded { position: relative; }
+
+/* Uber-hardcore hack: DO NOT TRY THIS AT HOME */
+.accordion .section .section-nav.expanded::before,
+.accordion .section .section-nav.expanded::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  width: 4px;
+  height: 4px;
+  background: #f5f5f5;
+  border: solid #e5e5e5;
+  border-width: 0 1px 1px;
+}
+
+.accordion .section .section-nav.expanded::before {
+  left: 0;
+  border-right: none;
+}
+
+.accordion .section .section-nav.expanded::after {
+  right: 0;
+  border-left: none;
+}
