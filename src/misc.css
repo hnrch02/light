@@ -105,6 +105,12 @@ div.preview-content .comment-content {
   border: none;
 }
 
+.previewable-comment-form.preview-selected .preview-content .comment-content .comment-body {
+  border: 1px solid #e5e5e5;
+  border-top-width: 0;
+  border-radius: 0 0 3px 3px;
+}
+
 .write-content .enable-fullscreen { right: 6px; }
 
 .comparison-discussion-starter .discussion-topic-header,
