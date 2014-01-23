@@ -55,6 +55,16 @@
 
 .inline-comments .comment { border: none; }
 
+.inline-comments .inline-comment-form {
+  margin: 0;
+  padding: 10px;
+  background: none;
+}
+
+.inline-comments .inline-comment-form .tabnav-tab.selected { background: #f9f9f9; }
+
+.inline-comments .form-actions { padding: 10px 0 0; }
+
 .comment-header .comment-header-tag { text-shadow: none; }
 
 .merge-pr .push-more { margin: 0; }
