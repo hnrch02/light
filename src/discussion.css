@@ -69,4 +69,8 @@
 
 .merge-pr .push-more { margin: 0; }
 
+.action-bubble .state-indicator { width: 75px; }
+
+.action-bubble .bubble { padding: 3px; }
+
 
