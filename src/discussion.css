@@ -79,6 +79,8 @@
 
 .merge-pr .push-more { margin: 0; }
 
+.new-discussion-timeline .merge-pr .push-more { margin: 10px 0; }
+
 .action-bubble .state-indicator { width: 75px; }
 
 .action-bubble .bubble { padding: 3px; }
