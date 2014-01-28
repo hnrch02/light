@@ -24,6 +24,8 @@
   border-radius: 0 0 3px 3px;
 }
 
+.timeline-comment .comment-content { border: none; }
+
 .bubble { padding: 0; }
 
 .discussion-topic-header {
@@ -47,10 +49,18 @@
 .previewable-comment-form .write-content,
 .previewable-comment-form .preview-content { padding: 0; }
 
+.timeline-comment .previewable-comment-form .write-content,
+.timeline-comment .previewable-comment-form .preview-content { padding: 0 10px 10px; }
+
 .closed-banner {
   background: none;
   border-radius: 0;
   border-top: 7px double #e5e5e5;
+}
+
+.new-discussion-timeline .closed-banner {
+  background: #f3f3f3;
+  border-top: none;
 }
 
 .inline-comments .comment { border: none; }
@@ -72,5 +82,39 @@
 .action-bubble .state-indicator { width: 75px; }
 
 .action-bubble .bubble { padding: 3px; }
+
+.bubble .comment + .comment {
+  position: relative;
+  border: none;
+}
+
+.bubble .comment + .comment .comment-header {
+  border-top: none;
+  border-radius: 0;
+}
+
+/* Nasty hack for preceding border-bottom-radius */
+
+.bubble .comment + .comment::before,
+.bubble .comment + .comment::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: -5px;
+  background: #fff;
+  border: 0 solid #e5e5e5;
+  border-bottom-width: 1px;
+}
+
+.bubble .comment + .comment::before {
+  left: 0;
+  border-left-width: 1px;
+}
+
+.bubble .comment + .comment::after {
+  right: 0;
+  border-right-width: 1px;
+}
 
 

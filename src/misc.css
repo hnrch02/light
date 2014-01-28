@@ -111,7 +111,14 @@ div.preview-content .comment-content {
   border-radius: 0 0 3px 3px;
 }
 
+.timeline-comment .previewable-comment-form.preview-selected .preview-content .comment-content .comment-body {
+  border-width: 0 0 1px;
+  border-radius: 0;
+}
+
 .write-content .enable-fullscreen { right: 6px; }
+
+.timeline-comment .write-content .enable-fullscreen { right: 16px; }
 
 .comparison-discussion-starter .discussion-topic-header,
 .comparison-discussion-starter div.composer .comment-content { border: none; }
