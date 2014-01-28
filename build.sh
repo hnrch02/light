@@ -2,6 +2,7 @@
 
 # Variables
 name="light"
+output=""
 banner="/*
    __ _       _     _
   / /(_) __ _| |__ | |_
@@ -22,8 +23,21 @@ rm -f $name.css
 
 # Banner
 if [[ $1 != "--no-banner" ]]; then
-  echo "$banner" >> $name.css;
+  output+="$banner"
 fi
 
-# Append all source files
-cat src/*.css >> $name.css
+# Loop over all source files
+index=0
+count=`find src -name "*.css" | wc -l`
+for file in src/*.css ; do
+  index=$((index+1))
+
+  output+=`cat $file`
+
+  if [[ "$index" -ne "$count" ]]; then
+    output+="\n\n\n"
+  fi
+done
+
+# Write output to file
+echo "$output" >> $name.css

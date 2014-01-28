@@ -14,7 +14,6 @@ Maintained by @hnrch02, released under the WTFPL license.
 */
 
 
-
 /* Discussion
 -------------------------------------------------- */
 
@@ -252,7 +251,10 @@ li.usage-bar:last-child { border-bottom: 1px solid #e5e5e5; }
 .accordion .section .section-nav.expanded::after {
   right: 0;
   border-left: none;
-}/* Miscellaneous
+}
+
+
+/* Miscellaneous
 -------------------------------------------------- */
 
 /* Remove the bottom border of the navigation tabs you see on your dashboard */
@@ -445,5 +447,3 @@ table.commits-condensed { width: 100%; }
 .sunken-menu.vertical-right .sunken-menu-contents { background: none; }
 
 .sunken-menu.vertical-right .sunken-menu-item.selected { box-shadow: none; }
-
-
