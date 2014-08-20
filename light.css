@@ -141,31 +141,15 @@ Maintained by @hnrch02, released under the WTFPL license.
 
 .header-logged-in { text-shadow: none; }
 
-.header-logo-invertocat { margin-right: 0; }
-
-.notification-indicator,
-.notification-indicator.contextually-unread {
-  background: none;
-  border: none;
-  box-shadow: none;
-  padding: 0;
-  margin-right: 8px;
-  width: 20px;
-}
-
-.notification-indicator .mail-status { box-shadow: none; }
-
-.notification-indicator .mail-status.unread { background: #4183c4; }
-
-.notification-indicator.contextually-unread .mail-status.unread { background: #3c9eff; }
-
 .command-bar:not(.command-bar-focus) input[type="text"] { box-shadow: none; }
 
-.top-nav > li + li { margin: 0; }
-
-.top-nav > li > a {
+.header-nav:not(.user-nav) .header-nav-link {
   font-weight: 400;
   color: #999;
+}
+.header-nav:not(.user-nav) .header-nav-link:hover,
+.header-nav:not(.user-nav) .header-nav-link:focus {
+  color: #4183c4;
 }
 
 
