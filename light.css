@@ -429,7 +429,7 @@ table.commits-condensed { width: 100%; }
 }
 
 /* Repo navigation */
-.sunken-menu.vertical-right .sunken-menu-separator,
-.sunken-menu.vertical-right .sunken-menu-contents { background: none; }
+.sunken-menu,
+.sunken-menu-separator { background: none; }
 
-.sunken-menu.vertical-right .sunken-menu-item.selected { box-shadow: none; }
+.sunken-menu-item.selected { box-shadow: none; }
